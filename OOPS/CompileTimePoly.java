@@ -15,9 +15,6 @@ class Animal {
     System.out.println("Animal " + type + " is barking");
   }
 
-  void eat() {
-    System.out.println("animal " + name + " is eating");
-  }
 }
 
 public class CompileTimePoly {
@@ -28,6 +25,6 @@ public class CompileTimePoly {
     a.name = "Dog";
     a.bark();
     a.bark("pitbull");
-    a.eat();
+
   }
 }
